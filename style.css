@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background-color: #eee;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 60%;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+}
+
+#errorMsg {
+  color: red;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+li.done {
+  text-decoration: line-through;
+  color: grey;
+}
